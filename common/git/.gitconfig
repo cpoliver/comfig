@@ -1,0 +1,6 @@
+
+[user]
+	name = Charles P Oliver
+	email = charles@cocoa.consulting
+[core]
+	excludesfile = ~/.gitignore
