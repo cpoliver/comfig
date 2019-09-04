@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
 
 # development
-brew cask install atom
 brew cask install expo-xde
 brew cask install haskell-platform
 brew cask install iterm2
 brew cask install macdown
-brew cask install robomongo
 brew cask install sequel-pro
 brew cask install sublime-text
 brew cask install visual-studio-code
