@@ -1,0 +1,165 @@
+// vim:ts=4:sw=4:et
+{
+  // splitv split container with 5 children
+  "border": "normal",
+  "floating": "auto_off",
+  "layout": "splith",
+  "percent": 0.333333333333333,
+  "type": "con",
+  "nodes": [
+    {
+      "layout": "splitv",
+      "percent": 0.25,
+      "type": "con",
+      "nodes": [
+        {
+          "border": "normal",
+          "current_border_width": 4,
+          "floating": "auto_off",
+          "geometry": {
+            "height": 458,
+            "width": 811,
+            "x": 0,
+            "y": 0
+          },
+          "name": "#1 mobile",
+          "percent": 0.2,
+          "swallows": [
+            {
+              "class": "^Termite$",
+              "instance": "^termite$",
+              "title": "^\\#1\\ mobile$"
+            }
+          ],
+          "type": "con"
+        },
+        {
+          "border": "normal",
+          "current_border_width": 4,
+          "floating": "auto_off",
+          "geometry": {
+            "height": 458,
+            "width": 811,
+            "x": 0,
+            "y": 0
+          },
+          "name": "#2 site",
+          "percent": 0.2,
+          "swallows": [
+            {
+              "class": "^Termite$",
+              "instance": "^termite$",
+              "title": "^\\#2\\ site$"
+            }
+          ],
+          "type": "con"
+        },
+        {
+          "border": "normal",
+          "current_border_width": 4,
+          "floating": "auto_off",
+          "geometry": {
+            "height": 458,
+            "width": 811,
+            "x": 0,
+            "y": 0
+          },
+          "name": "#3 react",
+          "percent": 0.2,
+          "swallows": [
+            {
+              "class": "^Termite$",
+              "instance": "^termite$",
+              "title": "^\\#3\\ react$"
+            }
+          ],
+          "type": "con"
+        },
+        {
+          "border": "normal",
+          "current_border_width": 4,
+          "floating": "auto_off",
+          "geometry": {
+            "height": 458,
+            "width": 811,
+            "x": 0,
+            "y": 0
+          },
+          "name": "#4 storybook",
+          "percent": 0.2,
+          "swallows": [
+            {
+              "class": "^Termite$",
+              "instance": "^termite$",
+              "title": "^\\#4\\ storybook$"
+            }
+          ],
+          "type": "con"
+        },
+        {
+          "border": "normal",
+          "current_border_width": 4,
+          "floating": "auto_off",
+          "geometry": {
+            "height": 458,
+            "width": 811,
+            "x": 0,
+            "y": 0
+          },
+          "name": "#5 graphql",
+          "percent": 0.2,
+          "swallows": [
+            {
+              "class": "^Termite$",
+              "instance": "^termite$",
+              "title": "^\\#5\\ graphql$"
+            }
+          ],
+          "type": "con"
+        }
+      ]
+    },
+    {
+      "border": "normal",
+      "current_border_width": 4,
+      "floating": "auto_off",
+      "geometry": {
+        "height": 458,
+        "width": 811,
+        "x": 0,
+        "y": 0
+      },
+      "name": "<",
+      "percent": 0.333333333333333,
+      "swallows": [
+        {
+          "class": "^Termite$",
+          "instance": "^termite$",
+          "title": "^\\<$"
+        }
+      ],
+      "type": "con"
+    },
+    {
+      "border": "normal",
+      "current_border_width": 4,
+      "floating": "auto_off",
+      "geometry": {
+        "height": 458,
+        "width": 811,
+        "x": 0,
+        "y": 0
+      },
+      "name": ">",
+      "percent": 0.333333333333333,
+      "swallows": [
+        {
+          "class": "^Termite$",
+          "instance": "^termite$",
+          "title": "^\\>$"
+        }
+      ],
+      "type": "con"
+    }
+  ]
+}
