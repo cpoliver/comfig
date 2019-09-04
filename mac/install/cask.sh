@@ -1,53 +1,44 @@
 #!/usr/bin/env bash
 
-# pre-install
-brew update
-brew upgrade
+# development
+brew cask install expo-xde
+brew cask install haskell-platform
+brew cask install iterm2
+brew cask install macdown
+brew cask install sequel-pro
+brew cask install sublime-text
+brew cask install visual-studio-code
 
-# updated utilities (macOS defaults are outdated)
-brew install coreutils
-brew install moreutils
-brew install findutils
+# internetz
+brew cask install epichrome
+brew cask install google-chrome
+brew cask install transmission
 
-brew install gnu-sed --with-default-names
-brew install wget --with-iri
+# media
+brew cask install 4k-video-downloader
+brew cask install iina
+brew cask install plex-media-player
+brew cask install plex-media-server
+brew cask install spotify
+brew cask install vlc
 
-brew install vim --with-override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+# music production
+brew cask install splice
 
-# font tools
-brew tap bramstein/webfonttools
-brew install sfnt2woff
-brew install sfnt2woff-zopfli
-brew install woff2
-
-# cli apps/tools
-brew install ack
-brew install ag
-brew install cask
-brew install cmake
-brew install elixir
-brew install git
-brew install git-lfs
-brew install mas
-brew install mongodb
-brew install n
-brew install node
-brew install nvim
-brew install python
-brew install rename
-brew install ruby
-brew install taskell
-brew install tig
-brew install tree
-brew install watch
-brew install watchman
-brew install weechat
-brew install wtfutil
-brew install yarn
-brew install z
-
-# post-install
-brew cleanup
+# utils
+brew cask install 1password
+brew cask install alfred
+brew cask install appcleaner
+brew cask install bartender
+brew cask install beardedspice
+brew cask install bettertouchtool
+brew cask install bitbar
+brew cask install boom
+brew cask install google-backup-and-sync
+brew cask install itsycal
+brew cask install keka
+brew cask install moom
+brew cask install namechanger
+brew cask install sync
+brew cask install synergy
+brew cask install typinator
