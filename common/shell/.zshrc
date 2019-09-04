@@ -1,12 +1,3 @@
-export DEFAULT_USER="$(whoami)"
-export SSH_KEY_PATH="~/.ssh/rsa_id"
-export ZSH=~/.oh-my-zsh
-
-export EDITOR="$(which nvim)"
-export VISUAL="$(which nvim)"
-
-export PATH="$(yarn global bin):$PATH"
-
 COMPLETION_WAITING_DOTS="true"
 HYPHEN_INSENSITIVE="true"
 ZSH_THEME="spaceship"
