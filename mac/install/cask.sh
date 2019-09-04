@@ -22,7 +22,8 @@ brew cask install plex-media-server
 brew cask install spotify
 brew cask install vlc
 
-# music production
+# creative
+brew cask install figma
 brew cask install splice
 
 # utils
@@ -38,6 +39,7 @@ brew cask install google-backup-and-sync
 brew cask install itsycal
 brew cask install keka
 brew cask install moom
+brew cask install nordvpn
 brew cask install namechanger
 brew cask install sync
 brew cask install synergy
