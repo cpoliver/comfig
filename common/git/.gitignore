@@ -2,20 +2,109 @@
 /coverage
 /build
 
-# misc
+# os bs
+._*
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.Spotlight-V100
+.Trashes
+Desktop.ini
+Thumbs.db
 
-# npm
-node_modules
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# node
+*.tgz
+.env
+.env.*
+.eslintcache
+.lock-wscript
+.npm
+.nyc_output
+.yarn-integrity
+bower_components
+coverage
+jspm_packages/
+lib-cov
+node_modules/
 
 # vscode
 .vscode
 .project
 .cache
+
+# elixir
+*.ez
+/_build
+/cover
+/deps
+
+# emacs
+*.elc
+*.rel
+*_archive
+*_flymake.*
+*~
+.#*
+.cask/
+.dir-locals.el
+.org-id-locations
+.projectile
+/.emacs.desktop
+/.emacs.desktop.lock
+/auto/
+/elpa/
+/eshell/history
+/eshell/lastdir
+/server/
+\#*\#
+auto-save-list
+dist/
+flycheck_*.el
+tramp
+
+# erlang
+*.beam
+*.o
+*.plt
+.concrete/DEV_MODE
+.eunit
+.rebar
+deps
+ebin/*.beam
+erl_crash.dump
+rel/example_project
+
+# purescript
+.psci
+.psci_modules
+output
+
+# python
+*.pyc
+
+# ruby
+*.rbc
+.rspec
+.rvmrc
+/.bundle
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/log
+/tmp
+/vendor/bundle
+config/initializers/secret_token.rb
+
+# sass
+*.css.map
+.sass-cache/
+
+# logs
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# runtime data
+*.pid
+*.pid.lock
+*.seed
+pids

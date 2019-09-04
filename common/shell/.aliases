@@ -3,6 +3,11 @@
 alias f5='source ~/.zshrc'
 alias zshrc='code ~/.zshrc'
 
+# locations
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias co="cd ~/Code"
+
 # default to neovim
 alias nvim='nvim || neovim'
 alias vi='nvim'
@@ -13,11 +18,14 @@ alias nuke!='rimraf'
 alias nnm!='nuke! ./node_modules'
 
 # n
-alias nlts='sudo n lts'
-alias n8='sudo n 8'
-alias n6='sudo n 6.11.5'
+alias n='sudo n'
+alias nlts='n lts'
+alias nlatest='n latest'
+alias n10='n 10'
+alias n8='n 8'
+alias n6='n 6.11.5'
 
-# ssh 
+# ssh
 red=`tput setaf 1`
 green=`tput setaf 2`
 reset=`tput sgr0`
@@ -32,6 +40,9 @@ if [ ! -S ~/.ssh/ssh_auth_sock ]; then
 fi
 export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
 ssh-add -l > /dev/null || ssh-add
+
+# package managers
+
 
 # git
 alias g='git'

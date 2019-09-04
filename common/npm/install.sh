@@ -1,4 +1,12 @@
-yarn global add diff-so-fancy
-yarn global add exp
-yarn global add nodemon
-yarn global add react-native-cli
+#!/usr/bin/env bash
+
+alias snig="sudo npm i -g"
+
+# node: npm packages
+snig commitizen
+snig diff-so-fancy
+snig nodemon
+snig npx
+snig svgo
+snig react-native-cli
+
