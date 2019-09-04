@@ -1,42 +1,63 @@
 #!/usr/bin/env bash
 
-# development
-brew cask install expo-xde
-brew cask install haskell-platform
-brew cask install iterm2
-brew cask install macdown
-brew cask install sequel-pro
-brew cask install sublime-text
-brew cask install visual-studio-code
+# pre-install
+brew update
+brew upgrade
 
-# internetz
-brew cask install epichrome
-brew cask install google-chrome
-brew cask install transmission
+# TODO: add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
+brew install coreutils
+brew install moreutils
+brew install findutils
 
-# media
-brew cask install 4k-video-downloader
-brew cask install iina
-brew cask install plex-media-player
-brew cask install plex-media-server
-brew cask install spotify
-brew cask install vlc
+brew install gnu-sed --with-default-names
+brew install wget --with-iri
 
-# music production
-brew cask install splice
+# update pre-installed macOS tools
+brew install vim --with-override-system-vi
+brew install homebrew/dupes/grep
+brew install homebrew/dupes/openssh
+brew install homebrew/dupes/screen
+brew install homebrew/php/php56 --with-gmp
 
-# utils
-brew cask install 1password
-brew cask install alfred
-brew cask install appcleaner
-brew cask install bartender
-brew cask install beardedspice
-brew cask install bettertouchtool
-brew cask install bitbar
-brew cask install boom
-brew cask install itsycal
-brew cask install keka
-brew cask install moom
-brew cask install namechanger
-brew cask install synergy
-brew cask install typinator
+# font tools
+brew tap bramstein/webfonttools
+brew install sfnt2woff
+brew install sfnt2woff-zopfli
+brew install woff2
+
+# cli tools
+brew install ack
+brwe install ag
+brew install rename
+brew install taskell
+brew install tree
+brew install weechat
+brew install wtfutil
+brew install z
+
+# git
+brew install tig
+brew install git
+brew install git-lfs
+
+# package managment
+brew install cask
+brew install mas
+
+# node
+brew install node
+brew install n
+brew install watch
+brew install watchman
+brew install yarn
+
+# programming/build
+brew install cmake
+brew install elixir
+brew install mongodb
+brew install nvim
+brew install python
+brew install ruby
+
+# post-install
+brew cleanup
