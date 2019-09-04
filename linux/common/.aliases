@@ -1,0 +1,17 @@
+# alias: power managment
+alias psleep='systemctl suspend'
+alias poff='shutdown -h now'
+alias poffscreens='xset dpms force off'
+
+# aliases: clipboard
+alias setclip='xclip -selection c'
+alias getclip='xclip -selection c -o'
+
+# aliases: open
+alias o='xdg-open'
+alias open='o'
+
+alias remap_capslock='setxkbmap -option "caps:ctrl_modifier" && xcape -e "Caps_Lock=Escape"'
+
+# startup script (todo: autorun on login)
+alias go!='~/.startup'
