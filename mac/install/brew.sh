@@ -12,19 +12,6 @@ brew install findutils
 brew install gnu-sed --with-default-names
 brew install wget --with-iri
 
-# update pre-installed macOS tools
-brew install vim --with-override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
-brew install homebrew/php/php56 --with-gmp
-
-# font tools
-brew tap bramstein/webfonttools
-brew install sfnt2woff
-brew install sfnt2woff-zopfli
-brew install woff2
-
 # cli tools
 brew install ack
 brwe install ag
