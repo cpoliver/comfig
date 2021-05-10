@@ -26,6 +26,7 @@ ys tree
 ys weechat
 ys wget
 ys xclip
+ys xdg-utils
 
 # docker
 ys docker
