@@ -95,6 +95,7 @@ ys arandr
 ys font-manager
 ys gpick
 ys nordvpn-bin
+ys unclutter
 ys xcape
 
 # shell: zsh, oh-my-zsh
