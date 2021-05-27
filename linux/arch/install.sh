@@ -72,6 +72,11 @@ ys nvim
 ys spotify
 ys vlc
 
+# apps: video capture
+ys handbrake
+ys obs-studio
+ys vidcutter
+
 # apps: design/photo/video
 ys figma-linux-bin
 ys flameshot
