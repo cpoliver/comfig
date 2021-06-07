@@ -99,6 +99,7 @@ ys xarchiver
 ys arandr
 ys font-manager
 ys gpick
+ys masterpdfeditor-free
 ys nordvpn-bin
 ys unclutter
 ys xcape
