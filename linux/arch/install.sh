@@ -17,9 +17,12 @@ ys ntfs-3g
 ys bat
 ys cmake
 ys curl
+ys exa
 ys httpie
 ys massren
+ys mcfly
 ys openssh
+ys procs
 ys tig
 ys the_silver_searcher
 ys tree
