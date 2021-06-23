@@ -79,6 +79,7 @@ ys vlc
 ys handbrake
 ys obs-studio
 ys vidcutter
+ys v4l2loopback-dkms # enable virtual camera in obs
 
 # apps: design/photo/video
 ys figma-linux-bin
