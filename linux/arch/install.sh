@@ -64,9 +64,14 @@ ys tor-browser
 ys vivaldi
 
 # apps: comms
+ys discord
+ys signal-desktop
+ys teams
 ys wavebox-bin
+ys whatsapp-nativefier-dark
 
 # apps: dev
+ys azuredatastudio
 ys code
 ys emacs && git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 ys nvim
@@ -90,7 +95,7 @@ ys pinta
 ys shutter
 
 # apps: terminal
-ys terminator
+ys alacritty
 
 # apps: file management
 ys community/nemo
@@ -102,6 +107,7 @@ ys xarchiver
 # apps: utils
 ys arandr
 ys font-manager
+ys gnupg
 ys gpick
 ys masterpdfeditor-free
 ys nordvpn-bin
