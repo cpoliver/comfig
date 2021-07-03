@@ -77,6 +77,7 @@ brew install appcleaner
 brew install divvy
 brew install google-backup-and-sync
 brew install homebrew/cask-drivers/logitech-g-hub
+brew install karabiner-elements
 brew install keka
 brew install nordvpn
 brew install namechanger
