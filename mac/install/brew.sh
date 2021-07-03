@@ -4,28 +4,18 @@
 brew update
 brew upgrade
 
-# TODO: add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-brew install coreutils
-brew install moreutils
-brew install findutils
-
-brew install gnu-sed --with-default-names
-brew install wget --with-iri
-
 # cli tools
-brew install ack
 brwe install ag
+brew install bat
 brew install rename
 brew install taskell
 brew install tree
-brew install weechat
 brew install wtfutil
 brew install z
 
 # git
 brew install tig
 brew install git
-brew install git-lfs
 
 # package managment
 brew install cask
@@ -34,17 +24,59 @@ brew install mas
 # node
 brew install node
 brew install n
-brew install watch
-brew install watchman
 brew install yarn
 
 # programming/build
 brew install cmake
 brew install elixir
 brew install mongodb
-brew install nvim
 brew install python
 brew install ruby
+
+# development
+brew install fish
+brew install iterm2
+brew install nvim
+brew install postman
+brew install sequel-pro
+brew install sublime-text
+brew install visual-studio-code
+
+# internetz
+brew install brave-browser
+brew install firefox
+brew install microsoft-edge
+brew install tor-browser
+brew install transmission
+brew install vivaldi
+
+# comms
+brew install discord
+brew install microsoft-teams
+brew install signal
+brew install whatsapp
+
+# media
+brew install 4k-video-downloader
+brew install plex-media-player
+brew install plex-media-server
+brew install spotify
+brew install vlc
+
+# creative
+brew install figma
+brew install splice
+
+# utils
+brew install 1password
+brew install alfred
+brew install appcleaner
+brew install divvy
+brew install google-backup-and-sync
+brew install homebrew/cask-drivers/logitech-g-hub
+brew install keka
+brew install nordvpn
+brew install namechanger
 
 # post-install
 brew cleanup
