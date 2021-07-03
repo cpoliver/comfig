@@ -4,22 +4,25 @@
 brew update
 brew upgrade
 
+# package managment
+brew install cask
+brew install mas
+
 # cli tools
 brwe install ag
 brew install bat
+brew install exa
 brew install fasd
+brew install procs
 brew install rename
 brew install taskell
+brew install thefuck
 brew install tree
 brew install wtfutil
 
 # git
 brew install tig
 brew install git
-
-# package managment
-brew install cask
-brew install mas
 
 # node
 brew install node
@@ -77,6 +80,9 @@ brew install homebrew/cask-drivers/logitech-g-hub
 brew install keka
 brew install nordvpn
 brew install namechanger
+
+brew tap cantino/mcfly
+brew install mcfly
 
 # post-install
 brew cleanup
