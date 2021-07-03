@@ -7,11 +7,11 @@ brew upgrade
 # cli tools
 brwe install ag
 brew install bat
+brew install fasd
 brew install rename
 brew install taskell
 brew install tree
 brew install wtfutil
-brew install z
 
 # git
 brew install tig
