@@ -5,11 +5,10 @@ brew update
 brew upgrade
 
 # package managment
-brew install cask
 brew install mas
 
 # cli tools
-brwe install ag
+brew install ag
 brew install bat
 brew install exa
 brew install fasd
@@ -55,7 +54,7 @@ brew install vivaldi
 
 # comms
 brew install discord
-brew install microsoft-teams
+brew install slack
 brew install signal
 brew install whatsapp
 
@@ -75,7 +74,7 @@ brew install 1password
 brew install alfred
 brew install appcleaner
 brew install divvy
-brew install google-backup-and-sync
+brew install google-drive
 brew install homebrew/cask-drivers/logitech-g-hub
 brew install karabiner-elements
 brew install keka
