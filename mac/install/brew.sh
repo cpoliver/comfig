@@ -71,15 +71,23 @@ brew install splice
 
 # utils
 brew install 1password
-brew install alfred
 brew install appcleaner
-brew install divvy
 brew install google-drive
 brew install homebrew/cask-drivers/logitech-g-hub
 brew install karabiner-elements
 brew install keka
 brew install nordvpn
 brew install namechanger
+
+# ui tools
+brew install alfred
+brew install bartender
+brew install divvy
+
+# capture tools
+brew install cleanshot
+brew install obs
+brew install obs-virtualcam
 
 brew tap cantino/mcfly
 brew install mcfly
