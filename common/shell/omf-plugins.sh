@@ -6,3 +6,4 @@ omf install osx
 omf install pbcopy
 omf install sudope
 omf install thefuck
+omf install z
